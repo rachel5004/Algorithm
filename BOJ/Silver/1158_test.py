@@ -10,5 +10,5 @@ def solution(n,k):
 def test_case():
     assert solution(7,3)==[3, 6, 2, 7, 5, 1, 4]
 
-n,k = map(int,input().split())
-print("<%s>" % (", ".join(map(str,solution(n,k)))))
+# n,k = map(int,input().split())
+# print("<%s>" % (", ".join(map(str,solution(n,k)))))
