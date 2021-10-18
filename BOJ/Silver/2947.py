@@ -1,6 +1,7 @@
-n=int(input().split())
-for j in range(len(n)):
-    for i in range(1, len(n)):
-        if n[i]<n[j-1]:
-            n[i],n[j-1]=n[i-1],n[j]
-            print(''.join(n))
+n=input().split()
+def sort(n):
+    for i in range(len(n)-1):
+        if n[i]>n[i+1]:
+            n[i],n[i+1]=n[i+1],n[i]
+            print(' '.join(n))
+while[*"12345"]<n: sort(n)
